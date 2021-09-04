@@ -1,10 +1,10 @@
 class Main {
   public static void main(String[] args) {
-    System.out.println("Hola mundo");
   
-    Car car2 = new Car("QWE453",new Driver("Jaime Altozano", "ASF345", "ejemplo@email.com", "userPassword1", "Carnet Type C"));
-    car2.passenger = 3;
-    car2.printDataCar();
+    UberX uberX = new UberX("ASD213", new Driver("Yav Gz", "INE", "yaav.gz@gmail.com", "newPassword1", "Mermision type C"), "Chevrolet", "Sonic");
+
+    uberX.setPassenger(3);
+    uberX.printDataCar();
   }
 }
 
