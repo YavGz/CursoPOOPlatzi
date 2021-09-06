@@ -7,6 +7,13 @@ class UberX extends Car {
     this.brand = brand;
     this.model = model;
   }
+
+  @Override
+  void printDataCar() {
+    super.printDataCar();
+    System.out.println("Model: " + model + " Brand: " + brand);
+  }
+
 }
 
 // Cuando aplicamos la herencia, tenemos que crear una nueva clase (clase hija) que extienda de una clase existente (clase padre)
